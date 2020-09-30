@@ -1,0 +1,181 @@
+ .container {
+    width: 300px;
+    padding:0px 10px;
+    margin: 0px auto;
+}
+pre{
+    margin: 0px;
+    font-size: 12px;
+}
+h2 {
+    color: #89a;
+    width: 300px;
+    text-align: center;
+}
+.red {
+    color: #678;
+}
+table {
+    margin: 0px 5px 5px 5px;
+}
+caption{
+    color: #abc;
+    text-shadow: 2px 1px gray;
+    font-weight: bold;
+}
+button {
+    width: 50px; 
+    height: 50px; 
+    font-size: 22px;
+    background-color: rgba(150, 100, 150, 0.5);
+    color: #fee;
+    border: 2px #b9b outset;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.top {
+    height: 30px; 
+    background-color: #989;
+    box-shadow: inset 5px 5px 5px #a89, inset -5px -5px 5px #867;
+    border-radius: 4px;
+    border: 1px #cab outset;
+    color: #bec;
+    text-shadow: 2px 2px 20px eef;
+    font-size: 20px;
+}
+#c {
+    height: 64px;
+    color: #7f7;
+}
+button:active{
+    background-color: #dbc;
+    box-shadow: none ;
+    padding-top: 4px;
+    outline: 1px solid #989;
+    border: 3px #b9b inset;
+}
+.top:hover{
+    background-color: #bab;
+    box-shadow: inset 5px 5px 5px #cab, inset -5px -5px 5px #a98;
+}
+button:hover{
+    background-color: #a9a;
+}
+.top:active{
+    background-color: #dbc;
+    box-shadow: none ;
+    padding-top: 4px;
+    outline: 1px solid #989;
+    border: 3px #b9b inset;
+}
+#display-container {
+    border: 3px inset;
+    margin-bottom: 10px;
+}
+#h1, #display1 { 
+    width: 260px; 
+    height: 25px; 
+    padding: 2px;
+    padding-top: 4px; 
+    background-color:powderblue; 
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: right;
+    overflow: hidden;
+    color: #245;
+    text-shadow: 2px 2px 1px #8ac;
+}
+#display1 {
+    font-size: 16px;
+}
+p {
+    width: 270px;
+    margin: 10px;
+    margin-top: -10px;
+    padding: 0px 5px;
+    color: #88a;
+}
+p:active{
+    color: white;
+}
+span {
+    color: #678;
+}
+ul {
+    background-color: powderblue;
+    width: 260px;
+}
+li {
+    display: inline;
+    background-color: green;
+    padding: 0px 0px;
+    font-size: 20px;
+}
+.div {
+    border: 5px #6bc ridge  ;
+    border-radius: 10px;
+    margin: 0px 5px 5px 5px;
+    padding-top: 0px;
+    width: 285px;
+    box-shadow: -10px 10px 10px silver;
+    background-color: #689;
+    font-size: 11px;
+    color: white;
+}
+.w {
+    box-shadow: -10px 10px 10px silver;
+    border: 5px #6bc groove;
+    margin: 0px 5px 5px 5px;
+    border-radius: 10px;
+    padding-top: 0px;
+    font-size: 11px;
+    cursor: pointer;
+    width: 285px;
+    color: white;
+}
+#theme1{
+    border: 5px #6bc ridge;
+    background-color: #689;
+}
+#theme2{
+    background-color: #ba8;
+    border: 5px #dca outset;    
+}
+#theme3{
+    background-color: #8a9;
+    border: 5px #8a9 double;
+}
+#theme4{
+    background-color: #aaa;
+    border: 5px #ddd outset;        
+}
+.f {
+    box-shadow: -10px 10px 10px silver;
+    border: 10px #ddd inset;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px;
+    width: 270px;    
+}
+#theme1:hover,#theme2:hover,#theme3:hover,#theme4:hover{
+    box-shadow: -10px 10px 20px gray;
+}
+#theme1:active,#theme2:active,#theme3:active,#theme4:active{
+    font-size: 10px;
+    margin-right: 9px;
+}
+.disabled, .disabled:active, .disabled:hover {
+    padding-top: 0px;
+    background-color: #999;
+    box-shadow: 0px 0px 0px grey;
+    border: none;
+}
+details {
+    color: grey;
+    margin: -15px 0px 10px 10px;
+}
+sup {
+    font-size: .65em;
+}
